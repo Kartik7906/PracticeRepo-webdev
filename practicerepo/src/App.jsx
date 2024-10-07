@@ -5,7 +5,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div><h1>sample project</h1></div>
+    <div>
+      <h1>React Form:</h1>
+      <form>
+        <label>UserName</label>
+        <input type="text" />
+      </form>
+    </div>
   )
 }
 
