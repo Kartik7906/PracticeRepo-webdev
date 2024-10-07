@@ -1,11 +1,27 @@
-import React from 'react'
+import React from 'react';
+import './Form.css'; 
+
 
 const Form = () => {
   return (
-    <div>
-        <h1>This is an FormPage</h1>
-    </div>
-  )
-}
+    <div className="centermaikro">
+    <div className='formconatiner'>
+      <h1>Login</h1>
+      <form action="">
+        <label htmlFor="username">UserName:</label>
+        <input type="text" id="username" />
 
-export default Form
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" />
+
+        <label htmlFor="password">Password:</label>
+        <input type="password" id="password" />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    </div>
+  );
+};
+
+export default Form;
